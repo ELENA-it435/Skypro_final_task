@@ -2,20 +2,35 @@
 
 Файл index.html.
 1. Лишний пробел в подвале страницы. Сейчас "202 4", а должно быть "2024".
-2. .gghoioo'oiu..
-3. ...пргнпаевгв
-4. ...
+2. Ошибка в прописании тега <div class="card animated fadeIn">, а должно быть  <div> class="card animated fadeIn">
+3. В приведённой строке кода  ошибка в слове. Сейчас <p class="subtitle">Тетирование WEB-приложений</p>,
+а должно быть <p class="subtitle">Тестирование WEB-приложений</p>
+4.В приведённом коде есть ошибка. Сейчас <a href="html/git.html">Git</a>, а должно быть <a href="git.html">Git</a>
 
 Файл cmd.html.
-1. ...
-2. ...
-3. ...
+1.Ощибка в написании кода <div. Сейчас <div class="card animated fadeIn">, а должно быть <div> class="card animated fadeIn">
+2.Ошибка в приведённой коде связана с неправильным путём к CSS-файлу. Сейчас <link rel="stylesheet" type="text/css" href="../css/style.css">,
+а должно быть  <link rel="stylesheet" type="text/css" href="styles.css">
+3.В приведённом коде  ошибка заключается  в том, что  ссылка к файлу Fav.ico указана не верно. Сейчас <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">, а
+должно быть <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+
 
 Файл mac.html.
-1. ...
-2. ...
+1.В приведённом коде  ошибка заключается  в том, что  ссылка к файлу Fav.ico указана не верно. Сейчас <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">, а
+должно быть  <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+2. Ошибка в прописании тега <div. Сейчас <div class="card animated fadeIn">, а должно быть <div> class="card animated fadeIn">
+3. В приведённом тексте есть ошибки: пропущен пробел и стоит не корректный знак "/". Сейчас <li>mkdir - расфшифровывается как"Move",
+ что переводится как "переместить", "передвинуть". С помощью нее можно переместить, переименовать или удалить файл/</li>, а должно быть <li>mkdir - расфшифровывается как"Move",
+  что переводится как "переместить", "передвинуть". С помощью нее можно переместить, переименовать или удалить файл </li>
 
 Файл git.html
-1. ...
-2. ...
-3. ...
+1. Ошибка в приведённой коде связана с неправильным путём к CSS-файлу. Сейчас <link rel="stylesheet" type="text/css" href="../css/style.css">,
+ а должно быть <link rel="stylesheet" type="text/css" href="css/style.css">
+2. В приведённом коде  ошибка заключается  в том, что  ссылка к файлу Fav.ico указана не верно. Сейчас <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">, а
+должно быть <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+3. Ошибка в написании закрытия кода </div>. Сейчас <div class="card">, а должно быть <div class="card"></div>
+4.В приведённом коде есть ошибка. Сейчас <p class="subtitle">Git</p>, а должно быть <h1 class="bold">Команды>Git</h1>.
+5. В приведённом тексте есть ошибки: пропущен пробел и стоит не корректный знак "/". Сейчас <li>mv - расфшифровывается как"Move",
+ что переводится как "переместить", "передвинуть". С помощью нее можно переместить, переименовать или удалить файл/</li>,
+  а должно быть <li>mv - расфшифровывается как "Move",  что переводится как "переместить", "передвинуть". 
+  С помощью нее можно переместить, переименовать или удалить файл </li>
